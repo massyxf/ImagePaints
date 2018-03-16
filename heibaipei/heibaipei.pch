@@ -1,0 +1,22 @@
+//
+//  heibaipei.pch
+//  heibaipei
+//
+//  Created by yxf on 2018/3/13.
+//  Copyright © 2018年 k_yan. All rights reserved.
+//
+
+#ifndef heibaipei_pch
+#define heibaipei_pch
+
+#define HBPSCREENW [UIScreen mainScreen].bounds.size.width
+#define HBPSCREENH [UIScreen mainScreen].bounds.size.height
+#define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREENHEIGHT [[UIScreen mainScreen] bounds].size.height
+#define YPKWeakSelf __weak typeof(self) weakSelf = self
+
+
+#import <Photos/Photos.h>
+#import "HBP_Macro.h"
+
+#endif /* heibaipei_pch */
